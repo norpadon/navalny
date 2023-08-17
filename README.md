@@ -23,16 +23,11 @@ Data was collected from the following sources:
 | Zhdanov's Instagram  | https://instagram.com/ioannzh          | 658             |
 | Yarmysh's Telegram   | https://t.me/Kira_Yarmysh              | 3577            |
 | Yarmysh's Instagram  | https://instagram.com/kira_yarmysh     | 363             |
-
-
-Sources which will soon be added:
-| Source               | Source url                             |
-| ---------------------|----------------------------------------|
-| Navalny's Facebook   | https://facebook.com/navalny           |
-| Volkov's Facebook    | https://facebook.com/leonid.m.volkov   |
-| Sobol's Facebook     | https://facebook.com/soboll.ru         |
-| Alburov's Facebook   | https://facebook.com/alburov           |
-| Zhdanov's Facebook   | https://facebook.com/zhdanovivan       |
+| Navalny's Facebook   | https://facebook.com/navalny           | 624             |
+| Volkov's Facebook    | https://facebook.com/leonid.m.volkov   | 664             |
+| Sobol's Facebook     | https://facebook.com/soboll.ru         | 920             |
+| Alburov's Facebook   | https://facebook.com/alburov           | 37              |
+| Zhdanov's Facebook   | https://facebook.com/zhdanovivan       | 490             |
 
 ### Structure
 `fbk_archive.csv` contains aggregated data as a CSV table with the following columns:
