@@ -29,6 +29,15 @@ Data was collected from the following sources:
 | Alburov's Facebook   | https://facebook.com/alburov           | 37              |
 | Zhdanov's Facebook   | https://facebook.com/zhdanovivan       | 490             |
 
+## Collection
+Data collection code can be found in `data.ipynb`. 
+
+Note that in order to run the code you will need to populate the `credentials` directory with files `fb_cookies.json`, `lj_cookies.json` containing cookies for the corresponding sites, as well as put your Instagram username and password into the `insta_credentials.json`.
+
+Be careful, Instagram and Facebook can temporarily ban you if you end up making too many requests.
+
+I used `BeautifulSoup` to parse scrape posts from navalny.com and LiveJournal, `snscrape` for Telegram, `facebook_scraper` for Facebook and `ensta` for Instagram.
+
 ### Structure
 `fbk_archive.csv` contains aggregated data as a CSV table with the following columns:
 * `author`: Author of the post
